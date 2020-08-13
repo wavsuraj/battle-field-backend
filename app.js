@@ -41,7 +41,7 @@ console.log("Path", path.join(__dirname, './build'))
 //     res.sendFile(path.join(__dirname, '../public/index.html'));
 // });
 
-app.use(express.static(path.join(__dirname, './build')));
+// app.use(express.static(path.join(__dirname, './build')));
 /**
  * Router Middleware
  * Router - /user/*
