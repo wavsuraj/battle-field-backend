@@ -8,7 +8,6 @@
   },
   "scripts": {
     "start": "nodemon app.js",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install && run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
